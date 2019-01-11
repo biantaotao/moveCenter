@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入井台账管理－新增入井台账</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link rel="stylesheet" href="css/contpublic.css">
+    <link rel="stylesheet" href="css/self.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+</head>
+
+<body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+<div id="wrapper">
+    <!--左侧导航开始-->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="nav-close"><i class="fa fa-times-circle"></i>
+        </div>
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="block m-t-xs" style="font-size:20px;">
+                                        <strong class="font-bold">单项目管理系统</strong>
+                                    </span>
+                                </span>
+                        </a>
+                    </div>
+                    <div class="logo-element">单项目管理系统
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-label">主页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="customer-index.html">
+                        <i class="fa fa-user"></i>
+                        <span class="nav-label">基础资料</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Audit-module.html">
+                        <i class="fa fa-comment"></i>
+                        <span class="nav-label">审核 </span>
+                        <span class="label label-warning pull-right">16</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promonitor-index.html">
+                        <i class="fa fa-balance-scale"></i>
+                        <span class="nav-label">项目监控平台 </span>
+
+                    </a>
+                </li>
+                <li class="line dk"></li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">项目</span>
+                </li>
+                <li>
+                    <a href="new-task.html">
+                        <i class="fa fa-plus-circle"></i>
+                        <span class="nav-label">项目创建管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-manager.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目投标管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-contact.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目合同管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-caret-square-o-right"></i>
+                        <span class="nav-label">项目开工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="prostart-comm-index.html">项目开工委托</a></li>
+                        <li><a href="prostart-apply-index.html">项目开工申请</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-table"></i>
+                        <span class="nav-label">项目规划管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="proplan-max-index.html">大项修方案管理</a></li>
+                        <li><a  href="proplan-safe-index.html">安全计划管理</a></li>
+                        <li><a  href="proplan-rate-index.html">进度规划管理</a></li>
+                        <li><a  href="proplan-material-index.html">材料需求计划</a></li>
+                        <li><a  href="proplan-config-index.html">设备配置计划</a></li>
+                        <li><a  href="proplan-labour-index.html">劳动力计划管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-flask"></i>
+                        <span class="nav-label">项目施工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="probuild-check-index.html">零部件检测管理</a>
+                            <a  href="parts-Ledger-manager.html">配件领用台账管理</a>
+                            <a href="probuild-day-index.html">日报管理</a>
+                            <a href="probuild-delay-index.html">进度延迟申报</a>
+                            <a href="probuild-chart-index.html">项目施工统计报表</a>
+                            <a href="probuild-proweek-index.html">项目周报</a>
+                            <a href="probuild-assinweek-index.html">作业周报</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="itemmass-manager.html">
+                        <i class="fa fa-tags"></i>
+                        <span class="nav-label">项目质量管理</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="quality-insp-record.html">质量巡检记录</a>
+                        </li>
+                        <li><a href="non-parts-record.html">非原厂配件使用记录</a>
+                        </li>
+                        <li><a href="quality-appli-record.html">质量让步申请记录</a>
+                        </li>
+                        <li><a href="item-stati-report.html">项目质量统计报表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-magic"></i>
+                        <span class="nav-label">项目安全管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="prosafe-check-table.html">安全检查记录管理</a></li>
+                        <li><a  href="prosafe-risk-table.html">安全隐患通知记录</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-inbox"></i>
+                        <span class="nav-label">项目竣工管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="profinish-skill-table.html">竣工技术资料管理</a></li>
+                        <li><a href="profinish-lefactory-table.html">完工出厂移交</a></li>
+                        <li><a href="profinish-report-index.html">验收报告</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-retweet"></i>
+                        <span class="nav-label">项目售后管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="Amowe.html">入井台账管理</a>
+                        </li>
+                        <li><a href="Cssurvey.html">客户满意度调查</a>
+                        </li>
+                        <li><a href="Asmnt.html">售后物料管理</a>
+                        </li>
+                        <li><a href="Vehicle-Management.html">售后车辆管理</a>
+                        </li>
+                        <li><a href="Roqa-tracing.html">质量事故追查记录</a>
+                        </li>
+                        <li><a href="Assa-report.html">售后总结分析报告</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--左侧导航结束-->
+    <!--右侧部分开始-->
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
+                    <ul class="breadcrumb">
+                        <li>您现在的位置：</li>
+                        <li>
+                            <a href="Amowe.html">入井台账管理</a>
+                        </li>
+                        <li class="curr">新增入井台账</li>
+                    </ul>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            用户名
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li class="m-t-xs">
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a7.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <small class="pull-right">46小时前</small>
+                                        <strong>小四</strong> 是不是只有我死了,你们才不骂爵迹
+                                        <br>
+                                        <small class="text-muted">3天前 2014.11.8</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a4.jpg">
+                                    </a>
+                                    <div class="media-body ">
+                                        <small class="pull-right text-navy">25小时前</small>
+                                        <strong>二愣子</strong> 呵呵
+                                        <br>
+                                        <small class="text-muted">昨天</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="mailbox.html">
+                                        <i class="fa fa-envelope"></i> <strong> 查看所有消息</strong>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="mailbox.html">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> 您有16条未读消息
+                                        <span class="pull-right text-muted small">4分钟前</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="profile.html">
+                                    <div>
+                                        <i class="fa fa-qq fa-fw"></i> 3条新回复
+                                        <span class="pull-right text-muted small">12分钟钱</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="notifications.html">
+                                        <strong>查看所有 </strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info"href="login.html">退出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+<div class="cont-main">
+<div class="animated fadeInRight">
+    <!--内容块-->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ibox">
+                <!--头部-->
+                <div class="ibox-title">
+                   <h5>新增入井台账</h5>
+                </div>
+                <!--头部-->
+                <!--中间-->
+                        <div class="ibox-content">
+                            <form class="form-horizontal m-t" id="form-validate" novalidate="novalidate">
+
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">服务矿井及工作面</label>
+                                    <div class="col-sm-6">
+                                        <input name="itempeop" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">设备名称</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" name="account">
+                                            <option>维修</option>
+                                            <option>搬家</option>
+                                            <option>掘进</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="dtp_input2" class="col-sm-3 control-label">下井日期</label>
+                                    <div class="input-group date form_date col-sm-6" data-date="" data-date-format="yyyy-MM-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                        <input class="form-control" size="16" type="text" value="" readonly="">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                    </div>
+                                    <input type="hidden" id="dtp_input2" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">服务时间</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" name="account">
+                                            <option>维修</option>
+                                            <option>搬家</option>
+                                            <option>掘进</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">服务类型</label>
+                                    <div class="col-sm-6">
+                                        <input name="itempeop" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">服务用时</label>
+                                    <div class="col-sm-6">
+                                        <input name="itempeop" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">入井车间</label>
+                                    <div class="col-sm-6">
+                                        <input name="itempeop" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">入井日数</label>
+                                    <div class="col-sm-6">
+                                        <input name="lsbm" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">合计用时</label>
+                                    <div class="col-sm-6">
+                                        <input name="ssdw" type="text" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">备注</label>
+                                    <div class="col-sm-6">
+                                        <textarea name="bz" class="form-control" required="" aria-required="true"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-5 text-right">
+                                        <button class="btn btn-primary" type="submit">确定</button>
+                                        <button class="btn btn-white button-cancel" type="button">取消</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="content_wrap">
+                                <div class="zTreeDemoBackground left">
+                                    <ul class="list">
+                                        <li class="title">&nbsp;&nbsp;<span class="highlight_red">选择城市时，按下 Ctrl 或 Cmd 键可以进行多选</span></li>
+                                        <li class="title">&nbsp;&nbsp;城市：<input id="citySel" type="text" readonly value="" style="width:120px;"/>
+                                            &nbsp;<a id="menuBtn" href="#" onclick="showMenu(); return false;">选择</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="menuContent" class="menuContent" style="display:none; position: absolute;">
+                                <ul id="treeDemo" class="ztree" style="margin-top:0; width:160px;"></ul>
+                            </div>
+                        </div>
+                <!--中间-->
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    </div>
+    <!--右侧部分结束-->
+</div>
+<!-- 全局js -->
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/jquery.ztree.core.js"></script>
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="js/plugins/layer/layer.min.js"></script>
+<!-- 自定义js -->
+<script src="js/hAdmin.js?v=4.1.0"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- 第三方插件 -->
+<script src="js/plugins/pace/pace.min.js"></script>
+<!-- 自定义js -->
+<script src="js/content.js?v=1.0.0"></script>
+
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/bootstrap-datetimepicker.js"></script>
+<script src="js/date.js"></script>
+<!-- 自定义js -->
+<script src="js/content.js?v=1.0.0"></script>
+<!--表单验证第三方-->
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_zh.js"></script>
+
+<!--表单验证第三方-->
+</body>
+<script type="text/javascript">
+    <!--
+    var setting = {
+        view: {
+            dblClickExpand: false
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        },
+        callback: {
+            beforeClick: beforeClick,
+            onClick: onClick
+        }
+    };
+
+    var zNodes =[
+        {id:1, pId:0, name:"北京"},
+        {id:2, pId:0, name:"天津"},
+        {id:3, pId:0, name:"上海"},
+        {id:6, pId:0, name:"重庆"},
+        {id:4, pId:0, name:"河北省", open:true},
+        {id:41, pId:4, name:"石家庄"},
+        {id:42, pId:4, name:"保定"},
+        {id:43, pId:4, name:"邯郸"},
+        {id:44, pId:4, name:"承德"},
+        {id:5, pId:0, name:"广东省", open:true},
+        {id:51, pId:5, name:"广州"},
+        {id:52, pId:5, name:"深圳"},
+        {id:53, pId:5, name:"东莞"},
+        {id:54, pId:5, name:"佛山"},
+        {id:6, pId:0, name:"福建省", open:true},
+        {id:61, pId:6, name:"福州"},
+        {id:62, pId:6, name:"厦门"},
+        {id:63, pId:6, name:"泉州"},
+        {id:64, pId:6, name:"三明"}
+    ];
+
+    function beforeClick(treeId, treeNode) {
+        var check = (treeNode && !treeNode.isParent);
+        if (!check) alert("只能选择城市...");
+        return check;
+    }
+
+    function onClick(e, treeId, treeNode) {
+        var zTree = $.fn.zTree.getZTreeObj("treeDemo"),
+            nodes = zTree.getSelectedNodes(),
+            v = "";
+        nodes.sort(function compare(a,b){return a.id-b.id;});
+        for (var i=0, l=nodes.length; i<l; i++) {
+            v += nodes[i].name + ",";
+        }
+        if (v.length > 0 ) v = v.substring(0, v.length-1);
+        var cityObj = $("#citySel");
+        cityObj.attr("value", v);
+    }
+
+    function showMenu() {
+        var cityObj = $("#citySel");
+        var cityOffset = $("#citySel").offset();
+        $("#menuContent").css({left:cityOffset.left + "px", top:cityOffset.top + cityObj.outerHeight() + "px"}).slideDown("fast");
+
+        $("body").bind("mousedown", onBodyDown);
+    }
+    function hideMenu() {
+        $("#menuContent").fadeOut("fast");
+        $("body").unbind("mousedown", onBodyDown);
+    }
+    function onBodyDown(event) {
+        if (!(event.target.id == "menuBtn" || event.target.id == "menuContent" || $(event.target).parents("#menuContent").length>0)) {
+            hideMenu();
+        }
+    }
+
+    $(document).ready(function(){
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    });
+
+    //-->
+</script>
+</html>

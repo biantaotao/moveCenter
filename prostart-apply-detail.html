@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link rel="stylesheet" href="css/contpublic.css">
+</head>
+<body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+<div id="wrapper">
+    <!--左侧导航开始-->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="nav-close"><i class="fa fa-times-circle"></i>
+        </div>
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="block m-t-xs" style="font-size:20px;">
+                                        <strong class="font-bold">单项目管理系统</strong>
+                                    </span>
+                                </span>
+                        </a>
+                    </div>
+                    <div class="logo-element">单项目管理系统
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-label">主页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="customer-index.html">
+                        <i class="fa fa-user"></i>
+                        <span class="nav-label">基础资料</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Audit-module.html">
+                        <i class="fa fa-comment"></i>
+                        <span class="nav-label">审核 </span>
+                        <span class="label label-warning pull-right">16</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promonitor-index.html">
+                        <i class="fa fa-balance-scale"></i>
+                        <span class="nav-label">项目监控平台 </span>
+
+                    </a>
+                </li>
+                <li class="line dk"></li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">项目</span>
+                </li>
+                <li>
+                    <a href="new-task.html">
+                        <i class="fa fa-plus-circle"></i>
+                        <span class="nav-label">项目创建管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-manager.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目投标管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-contact.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目合同管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-caret-square-o-right"></i>
+                        <span class="nav-label">项目开工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="prostart-comm-index.html">项目开工委托</a></li>
+                        <li><a href="prostart-apply-index.html">项目开工申请</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-table"></i>
+                        <span class="nav-label">项目规划管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="proplan-max-index.html">大项修方案管理</a></li>
+                        <li><a  href="proplan-safe-index.html">安全计划管理</a></li>
+                        <li><a  href="proplan-rate-index.html">进度规划管理</a></li>
+                        <li><a  href="proplan-material-index.html">材料需求计划</a></li>
+                        <li><a  href="proplan-config-index.html">设备配置计划</a></li>
+                        <li><a  href="proplan-labour-index.html">劳动力计划管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-flask"></i>
+                        <span class="nav-label">项目施工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="probuild-check-index.html">零部件检测管理</a>
+                            <a  href="parts-Ledger-manager.html">配件领用台账管理</a>
+                            <a href="probuild-day-index.html">日报管理</a>
+                            <a href="probuild-delay-index.html">进度延迟申报</a>
+                            <a href="probuild-chart-index.html">项目施工统计报表</a>
+                            <a href="probuild-proweek-index.html">项目周报</a>
+                            <a href="probuild-assinweek-index.html">作业周报</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="itemmass-manager.html">
+                        <i class="fa fa-tags"></i>
+                        <span class="nav-label">项目质量管理</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="quality-insp-record.html">质量巡检记录</a>
+                        </li>
+                        <li><a href="non-parts-record.html">非原厂配件使用记录</a>
+                        </li>
+                        <li><a href="quality-appli-record.html">质量让步申请记录</a>
+                        </li>
+                        <li><a href="item-stati-report.html">项目质量统计报表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-magic"></i>
+                        <span class="nav-label">项目安全管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="prosafe-check-table.html">安全检查记录管理</a></li>
+                        <li><a  href="prosafe-risk-table.html">安全隐患通知记录</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-inbox"></i>
+                        <span class="nav-label">项目竣工管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="profinish-skill-table.html">竣工技术资料管理</a></li>
+                        <li><a href="profinish-lefactory-table.html">完工出厂移交</a></li>
+                        <li><a href="profinish-report-index.html">验收报告</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-retweet"></i>
+                        <span class="nav-label">项目售后管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="Amowe.html">入井台账管理</a>
+                        </li>
+                        <li><a href="Cssurvey.html">客户满意度调查</a>
+                        </li>
+                        <li><a href="Asmnt.html">售后物料管理</a>
+                        </li>
+                        <li><a href="Vehicle-Management.html">售后车辆管理</a>
+                        </li>
+                        <li><a href="Roqa-tracing.html">质量事故追查记录</a>
+                        </li>
+                        <li><a href="Assa-report.html">售后总结分析报告</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
+                    <ul class="breadcrumb">
+                        <li>您现在的位置：</li>
+                        <li><a href="prostart-apply-index.html">项目开工申请</a></li>
+                        <li class="curr">开工申请详情</li>
+                    </ul>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            用户名
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li class="m-t-xs">
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a7.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <small class="pull-right">46小时前</small>
+                                        <strong>小四</strong> 是不是只有我死了,你们才不骂爵迹
+                                        <br>
+                                        <small class="text-muted">3天前 2014.11.8</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a4.jpg">
+                                    </a>
+                                    <div class="media-body ">
+                                        <small class="pull-right text-navy">25小时前</small>
+                                        <strong>二愣子</strong> 呵呵
+                                        <br>
+                                        <small class="text-muted">昨天</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="mailbox.html">
+                                        <i class="fa fa-envelope"></i> <strong> 查看所有消息</strong>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="mailbox.html">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> 您有16条未读消息
+                                        <span class="pull-right text-muted small">4分钟前</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="profile.html">
+                                    <div>
+                                        <i class="fa fa-qq fa-fw"></i> 3条新回复
+                                        <span class="pull-right text-muted small">12分钟钱</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="notifications.html">
+                                        <strong>查看所有 </strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info"href="login.html">退出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cont-main">
+            <div class="animated fadeInRight">
+                <!--内容块-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="ibox">
+                            <!--头部-->
+                            <div class="ibox-title">
+                                <h5>开工申请详情</h5>
+                            </div>
+                            <!--中间-->
+                            <div class="ibox-content">
+                                <div class="project-list">
+                                    <form method="get" class="form-horizontal form-double">
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">项目编码：</label>
+                                            <span class="fl-l">9876556789</span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">项目名称：</label>
+                                            <span class="fl-l">9876556789</span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">项目类型：</label>
+                                            <span class="fl-l">维修</span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">计划资金：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">委托单位：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">项目负责人：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">委托日期：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">开工日期：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-4 col-sm-4">
+                                            <label for="" class="fl-l">竣工日期：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>设备编码</th>
+                                                <th>设备名称</th>
+                                                <th>规格型号</th>
+                                                <th>设备数量</th>
+                                                <th>设备合同原值</th>
+                                                <th>原使用单位（地点）</th>
+                                                <th>拟定设备去向</th>
+                                                <th>备注</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td title="设备的编码">设备的编码</td>
+                                                <td title="设备名称">设备名称</td>
+                                                <td title="949657">949657</td>
+                                                <td title="设备数量">设备数量</td>
+                                                <td>324</td>
+                                                <td title="神南">神南</td>
+                                                <td title="去向">去向</td>
+                                                <td title="备注">备注</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="form-group col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">主要检修内容：</label>
+                                            <span class="fl-l">9876556789</span>
+                                        </div>
+                                        <div class="form-group  col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">备注：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">审核结果：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">审核人：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">审核时间：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                        <div class="form-group  col-md-12 col-sm-12">
+                                            <label for="" class="fl-l">审核评价：</label>
+                                            <span class="fl-l"></span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 全局js -->
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="js/plugins/layer/layer.min.js"></script>
+<!-- 自定义js -->
+<script src="js/content.js?v=1.0.0"></script>
+<script src="js/checkbox.js"></script>
+<script src="js/hAdmin.js?v=4.1.0"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- 第三方插件 -->
+<script src="js/plugins/pace/pace.min.js"></script>
+</body>
+</html>

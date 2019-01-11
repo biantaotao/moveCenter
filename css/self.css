@@ -1,0 +1,52 @@
+.icon-show {
+    background-size: 14px;
+    padding-left: 20px;
+    background-image: url(../img/show.png);
+    background-repeat: no-repeat;
+}
+.show-tr .hidei {
+    background-image: url(../img/hide.png)!important;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 20px;
+}
+.activeDis{
+    display: none;
+}
+.bottom{
+    width: 100%;
+    height:50px;
+    background: #1c2b36;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.project-list table tr .child-num{
+    padding: 15px 0px 15px 21px!important;
+}
+.ksqs{
+    float: left;
+    margin-left: 290px;
+}
+.tbls{
+    float: right;
+    margin-right: 327px;
+}
+.ksqs,.tbls{
+    padding: 80px 80px;
+    background: #eee;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.ksqs-bootom{
+    float: left;
+    margin-left: 303px;
+}
+.tbls-bottom{
+    float: right;
+    margin-right: 359px;
+}
+.ksqs-bootom,.tbls-bottom{
+    padding: 2px 11px;
+}

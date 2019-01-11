@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link rel="stylesheet" href="css/contpublic.css">
+    <link rel="stylesheet" href="css/self.css">
+</head>
+<body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+<div id="wrapper">
+    <!--左侧导航开始-->
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="nav-close"><i class="fa fa-times-circle"></i>
+        </div>
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="block m-t-xs" style="font-size:20px;">
+                                        <strong class="font-bold">单项目管理系统</strong>
+                                    </span>
+                                </span>
+                        </a>
+                    </div>
+                    <div class="logo-element">单项目管理系统
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-home"></i>
+                        <span class="nav-label">主页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="customer-index.html">
+                        <i class="fa fa-user"></i>
+                        <span class="nav-label">基础资料</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Audit-module.html">
+                        <i class="fa fa-comment"></i>
+                        <span class="nav-label">审核 </span>
+                        <span class="label label-warning pull-right">16</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="promonitor-index.html">
+                        <i class="fa fa-balance-scale"></i>
+                        <span class="nav-label">项目监控平台 </span>
+
+                    </a>
+                </li>
+                <li class="line dk"></li>
+                <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                    <span class="ng-scope">项目</span>
+                </li>
+                <li>
+                    <a href="new-task.html">
+                        <i class="fa fa-plus-circle"></i>
+                        <span class="nav-label">项目创建管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-manager.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目投标管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="item-contact.html">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="nav-label">项目合同管理</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-caret-square-o-right"></i>
+                        <span class="nav-label">项目开工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="prostart-comm-index.html">项目开工委托</a></li>
+                        <li><a href="prostart-apply-index.html">项目开工申请</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-table"></i>
+                        <span class="nav-label">项目规划管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="proplan-max-index.html">大项修方案管理</a></li>
+                        <li><a  href="proplan-safe-index.html">安全计划管理</a></li>
+                        <li><a  href="proplan-rate-index.html">进度规划管理</a></li>
+                        <li><a  href="proplan-material-index.html">材料需求计划</a></li>
+                        <li><a  href="proplan-config-index.html">设备配置计划</a></li>
+                        <li><a  href="proplan-labour-index.html">劳动力计划管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-flask"></i>
+                        <span class="nav-label">项目施工管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a  href="probuild-check-index.html">零部件检测管理</a>
+                            <a  href="parts-Ledger-manager.html">配件领用台账管理</a>
+                            <a href="probuild-day-index.html">日报管理</a>
+                            <a href="probuild-delay-index.html">进度延迟申报</a>
+                            <a href="probuild-chart-index.html">项目施工统计报表</a>
+                            <a href="probuild-proweek-index.html">项目周报</a>
+                            <a href="probuild-assinweek-index.html">作业周报</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="itemmass-manager.html">
+                        <i class="fa fa-tags"></i>
+                        <span class="nav-label">项目质量管理</span>
+                        <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="quality-insp-record.html">质量巡检记录</a>
+                        </li>
+                        <li><a href="non-parts-record.html">非原厂配件使用记录</a>
+                        </li>
+                        <li><a href="quality-appli-record.html">质量让步申请记录</a>
+                        </li>
+                        <li><a href="item-stati-report.html">项目质量统计报表</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-magic"></i>
+                        <span class="nav-label">项目安全管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a  href="prosafe-check-table.html">安全检查记录管理</a></li>
+                        <li><a  href="prosafe-risk-table.html">安全隐患通知记录</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>
+                        <i class="fa fa-inbox"></i>
+                        <span class="nav-label">项目竣工管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="profinish-skill-table.html">竣工技术资料管理</a></li>
+                        <li><a href="profinish-lefactory-table.html">完工出厂移交</a></li>
+                        <li><a href="profinish-report-index.html">验收报告</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-retweet"></i>
+                        <span class="nav-label">项目售后管理 </span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="Amowe.html">入井台账管理</a>
+                        </li>
+                        <li><a href="Cssurvey.html">客户满意度调查</a>
+                        </li>
+                        <li><a href="Asmnt.html">售后物料管理</a>
+                        </li>
+                        <li><a href="Vehicle-Management.html">售后车辆管理</a>
+                        </li>
+                        <li><a href="Roqa-tracing.html">质量事故追查记录</a>
+                        </li>
+                        <li><a href="Assa-report.html">售后总结分析报告</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--左侧导航结束-->
+    <!--右侧部分开始-->
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
+                    <ul class="breadcrumb">
+                        <li>您现在的位置：</li>
+                        <li class="curr">大项修方案管理</li>
+                    </ul>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            用户名
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li class="m-t-xs">
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a7.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <small class="pull-right">46小时前</small>
+                                        <strong>小四</strong> 是不是只有我死了,你们才不骂爵迹
+                                        <br>
+                                        <small class="text-muted">3天前 2014.11.8</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="dropdown-messages-box">
+                                    <a href="profile.html" class="pull-left">
+                                        <img alt="image" class="img-circle" src="img/a4.jpg">
+                                    </a>
+                                    <div class="media-body ">
+                                        <small class="pull-right text-navy">25小时前</small>
+                                        <strong>二愣子</strong> 呵呵
+                                        <br>
+                                        <small class="text-muted">昨天</small>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="mailbox.html">
+                                        <i class="fa fa-envelope"></i> <strong> 查看所有消息</strong>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="mailbox.html">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> 您有16条未读消息
+                                        <span class="pull-right text-muted small">4分钟前</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="profile.html">
+                                    <div>
+                                        <i class="fa fa-qq fa-fw"></i> 3条新回复
+                                        <span class="pull-right text-muted small">12分钟钱</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <div class="text-center link-block">
+                                    <a class="J_menuItem" href="notifications.html">
+                                        <strong>查看所有 </strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info"href="login.html">退出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cont-main">
+            <div class="animated fadeInRight">
+                <!--内容块-->
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="ibox">
+                            <!--头部-->
+                            <div class="ibox-title">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-sm-6">
+                                        <div class="input-group" style="float: left;width: 60%;margin-top: -7px">
+                                            <input type="text" placeholder="请输入项目名称/编号" class="input-sm form-control search-inp"> <span class="input-group-btn">
+                                <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--中间-->
+                            <div class="ibox-content">
+                                <div class="project-list">
+                                    <table class="table table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>项目编码</th>
+                                            <th>项目名称</th>
+                                            <th>项目类型</th>
+                                            <th>委托单位</th>
+                                            <th>开工日期</th>
+                                            <th>设备编码</th>
+                                            <th>设备名称</th>
+                                            <th>规格型号</th>
+                                            <th>设备数量</th>
+                                            <th>操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td title="1354653254">1354653254</td>
+                                            <td title="项目的名称项目的名称">项目的名称项目的名称</td>
+                                            <td>维修</td>
+                                            <td title="949657">949657</td>
+                                            <td title="客户名称">客户名称</td>
+                                            <td>刘路</td>
+                                            <td>刘路</td>
+                                            <td>2018-10-12</td>
+                                            <td>未开工</td>
+                                            <td>
+                                                <span class="btn-none btn-span export-excel" data-toggle="modal" data-target="#uploadModal">上传</span>
+                                                <span class="btn-none btn-span export-excel" data-toggle="modal" data-target="#exportModal">下载</span>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="dataTables_info" id="editable_info" role="alert" aria-live="polite" aria-relevant="all">
+                                            显示 1 到 13 项，共 57 项
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="dataTables_paginate paging_simple_numbers" id="editable_paginate">
+                                            <ul class="pagination">
+                                                <li class="paginate_button previous disabled" aria-controls="editable" tabindex="0" id="editable_previous">
+                                                    <a href="#">上一页</a>
+                                                </li>
+                                                <li class="paginate_button active" aria-controls="editable" tabindex="0">
+                                                    <a href="#">1</a>
+                                                </li>
+                                                <li class="paginate_button " aria-controls="editable" tabindex="0">
+                                                    <a href="#">2</a>
+                                                </li>
+                                                <li class="paginate_button " aria-controls="editable" tabindex="0">
+                                                    <a href="#">3</a>
+                                                </li>
+                                                <li class="paginate_button " aria-controls="editable" tabindex="0">
+                                                    <a href="#">4</a>
+                                                </li>
+                                                <li class="paginate_button " aria-controls="editable" tabindex="0">
+                                                    <a href="#">5</a>
+                                                </li>
+                                                <li class="paginate_button " aria-controls="editable" tabindex="0">
+                                                    <a href="#">6</a>
+                                                </li>
+                                                <li class="paginate_button next" aria-controls="editable" tabindex="0">
+                                                    <a href="#">下一页</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--右侧部分结束-->
+    <!-- 上传模态框-->
+    <div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="uploadModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="uploadModalLabel">提示消息</h4>
+                </div>
+                <div class="modal-body upload-body">
+                    <form action="" class="form-horizontal row">
+                        <div class="form-group col-sm-12">
+                            <label class="col-sm-4 control-label text-right">选择上传文件</label>
+                            <div class="col-sm-6">
+                                <input type="file" class="form-control file-choose" aria-required="true" required="">
+
+                            </div>
+                            <div class="col-sm-2" style="margin-top: 3px;">
+                                <button class="btn btn-default btn-none btn-xs start-upload">开始上传</button>
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <label class="col-sm-4 control-label text-right">选择技术交底人员</label>
+                            <div class="col-sm-6">
+                                <select name="" id="" class="form-control">
+                                    <option value="">111</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 下载模态框-->
+    <div class="modal fade" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="exportModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exportModalLabel">提示消息</h4>
+                </div>
+                <div class="modal-body export-body">
+                    确定下载吗
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary fir exportbtn">确定</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 全局js -->
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="js/plugins/layer/layer.min.js"></script>
+<!-- 自定义js -->
+<script src="js/hAdmin.js?v=4.1.0"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!-- 第三方插件 -->
+<script src="js/plugins/pace/pace.min.js"></script>
+<!-- 自定义js -->
+<script src="js/content.js?v=1.0.0"></script>
+<script src="js/checkbox.js"></script>
+<script>
+    /* 确定上传 */
+    $('.start-upload').click(function(){
+        if($('.file-choose').val()!=""){
+
+        }
+    });
+    /* 确定下载 */
+    $('.exportbtn').click(function(){
+        $('.export-body').html('');
+        var stepexport ='<p>正在下载...</p>'+
+            '<div class="progress progress-striped active step-export">' +
+            '<div style="width: 100%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar" class="progress-bar">' +
+            '<span class="sr-only"></span>' +
+            '</div>'+
+            '</div>';
+        $('.export-body').append(stepexport);
+    });
+</script>
+</body>
+</html>

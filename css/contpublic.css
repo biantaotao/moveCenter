@@ -1,0 +1,157 @@
+table{
+    font-size: 13px;
+    table-layout: fixed;
+}
+.notfixed{
+    table-layout: auto!important;
+}
+.notfixed tbody tr td{
+    white-space: normal;
+}
+table thead tr th{
+    padding: 8px 3px!important;
+    text-align: center;
+}
+table tbody tr td{
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.check{
+    width: 5%;
+}
+.btn-none{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn-span{
+    color:#333;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.search-inp{
+    font-size: 12px;
+    font-weight: normal;
+}
+.btn-span i{
+    margin-right: 5px;
+}
+.fl-l{
+    float: left;
+}
+.fl-r{
+    float: right;
+}
+.align-l{
+    text-align: left;
+}
+.align-r{
+    text-align: right;
+}
+.overf{
+    overflow: hidden;
+}
+.ibox-title{
+
+}
+.search-bottom{
+    bottom:6px;
+}
+.cut-word{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.project-list table tr td{
+    padding: 15px 3px!important;
+}
+.customer-table input{
+   display: block;
+}
+.breadcrumb{
+    margin-top: 9px;
+    padding:10px 5px;
+}
+.breadcrumb li a{
+    color:#0d8ddb;
+}
+.form-double{
+    overflow: hidden;
+}
+.tabs-container .nav-tabs{
+    border:none!important;
+}
+.border-none{
+     border:none!important;
+}
+.padd-top{
+    padding: 5px 0;
+}
+.iboxcont-small-padd{
+    padding: 10px 12px;
+}
+.bgwhite{
+    background-color: #fff!important;
+}
+.nav-tabs > li > a{
+    color:#666;
+}
+.nav-tabs > li.active > a{
+    color:#333;
+}
+.ibox-tab{
+    box-shadow: none!important;
+}
+.check{
+    width: 18px;
+}
+.modal-footer{
+    padding: 8px 15px!important;
+}
+.breadcrumb li:nth-child(2):before{
+    content: none;
+}
+.double-btn{
+  padding-right: 30px;
+}
+.form-horizontal .form-group{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+.input-group[class*=col-]{
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+}
+.table-width{
+    width:95%;
+    margin-left: 2%;
+}
+.btn-margintop{
+    margin-top: 200px;
+}
+.file-label{
+    margin-top: 6px!important;
+}
+.sure-file{
+    float: left;
+}
+.action-btn{
+    margin-right: 10px;
+}
+.addplan{
+     float: right;
+     cursor: pointer;
+}
+.change-week{
+    cursor: pointer;
+}
+.modal-radio{
+    position:relative;
+    top:10px;
+    margin-right: 30px;
+}
+

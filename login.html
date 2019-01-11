@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <link rel="shortcut icon" href="img/logo.png">
+    <title></title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .loginpage{
+            position: absolute;
+            width:100%!important;
+            height:100%;
+            background-image: url(img/loginbg.jpg);
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+        }
+        .form-div{
+            width:350px;
+            height:300px;
+            margin: 13% auto;
+        }
+        .form-div form{
+            border-radius: 5px;
+            width:350px;
+            height:200px;
+            background-size:100% 100%;
+            background-image: url(img/bgwhite.png);
+        }
+        .form-div h4{
+            margin-bottom: 10px;
+            font-weight: normal;
+            text-align: center;
+            color:#fff;
+            font-size: 38px;
+        }
+        .inpform{
+            border:none;
+            margin: 0 auto;
+            width:87%;
+            border-radius: 3px;
+            background: #fff;
+            padding: 10px 5px;
+            margin-bottom: 15px;
+            padding-left: 30px;
+        }
+        .login-cont{
+            width:80%;
+            margin: 0 auto;
+            padding: 30px 10px;
+        }
+        .inpform{
+
+            outline: none;
+        }
+        .inp-div{
+            position: relative;
+        }
+        .login-cont .bluebtn{
+              border:none;
+             margin: 0 auto;
+             width: 100%;
+            color:#fff;
+            background:#0099cc;
+            font-size: 16px;
+             border-radius: 3px;
+              padding: 10px 5px; 
+        }
+        .inp-div img{
+            width:18px;
+            top:7px;
+            left:7px;
+            position: absolute;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+   <div class="loginpage">
+       <div  class="form-div">
+           <h4>单项目管理系统</h4>
+           <form action="">
+               <div class="login-cont">
+                   <div class="inp-div">
+                       <img src="img/usericon.png" alt="">
+                       <input type="text" placeholder="请输入账号" class="inpform">
+                   </div>
+                   <div class="inp-div">
+                        <img src="img/passicon.png" alt="">
+                       <input type="password" placeholder="请输入密码" class="inpform">
+                   </div>
+                   <div>
+                       <button type="button" class="inpform bluebtn">登录</button>
+                   </div>
+               </div>
+           </form>
+       </div>
+   </div>
+</body>
+</html>
